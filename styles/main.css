@@ -1,0 +1,33 @@
+@import "./header.css";
+@import "./hero.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: aliceblue;
+    background-color: rgb(24, 24, 24);
+}
+
+main {
+    
+    padding-inline: 64px;
+    display: grid;
+    gap: 64px;
+    margin: 64px 0;
+
+}
+
+/* styler ALLE sekjsoner på siden: */
+
+section {
+    border: 2px solid black;
+    background-color: rgb(99, 127, 151);
+}
+
+section:last-of-type{
+    margin-bottom: 64px;
+}

@@ -1,0 +1,13 @@
+section.hero {
+    min-height: calc(100vh - 80px);
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+section.hero h1 {
+    height: fit-content;
+}
